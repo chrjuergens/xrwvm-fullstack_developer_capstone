@@ -32,41 +32,48 @@
   </nav>
 </div>
 <body>
-    <div class="text-center">
+<div class="container-fluid p-5 bg-primary text-white text-center">
+  <h1>Get in touch with us</h1>
+  <p>Jerry is there for you - 24/7/365!</p> 
+</div>
+  
+<div class="container mt-5">
+  <div class="row">
+    <div class="col-sm-4">
+      <h3>Meet us</h3>
+      <br>
+      <u>CarDealership</u><br/>
+      Smith Residence<br/>
+      Washington, USA, Earth
+    </div>
+    <div class="col-sm-4">
+      <h3>Write us</h3>
+      <br>
+      <p>Mail: <a href="mailto:jerry@example.com">Jerry Smith</a></p>
+    </div>
+    <div class="col-sm-4">
+      <h3>Join us</h3>
+      <div class="container">
+        <form type="submit">
+          <label>
+            Your e-mail address:
+          </label>
+          <br>
+          <input type="text" name="mail">
+          <br>
+          <br>
+          <label>
+            Your message:
+          </label>
+          <br>
+          <input type="text" name="text" style="width:300px;height=600px;"><br>
+          <input type="submit">
+        </form>
 
-        I tried to put the cards in a <a href="https://getbootstrap.com/docs/4.0/components/carousel/">carousel</a> but for some reason it did not work!
+      </div>
 
-        Therefore I put the cards here in a simple manner!
     </div>
-    <div class="card container-fluid" style="width: 20%;">
-        <img class="card-img-top" src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Card image">
-        <div class="card-body">
-          <p class="title">Instagram</p>
-          <p class="card-text text-center">
-            <a href="https://www.instagram.com/">Write us on Instragram!</a></p>
-        </div>
-    </div>
-    <div class="card container-fluid" style="width: 20%;">
-        <img class="card-img-top" src="https://upload.wikimedia.org/wikipedia/commons/9/98/Ericsson_Taxen_%282%29.jpg" alt="Card image">
-        <div class="card-body">
-          <p class="title">Call us!</p>
-          <p class="card-text text-center">
-            <a href="https://www.youtube.com/watch?app=desktop&v=APxm_039mzw&t=0s">Jerry is there for you - 24/7!</a></p>
-        </div>
-    </div>
-    <div class="text-center" style="background-color:darkturquoise;text-color:black;">
-        <a href="#top">Back to top!</a>
-    </div>
-    <div class="card container-fluid" style="width: 20%;">
-        <img class="card-img-top" src="https://upload.wikimedia.org/wikipedia/commons/e/ee/%28at%29.svg" alt="Card image">
-        <div class="card-body">
-          <p class="title">Write us!</p>
-          <p class="card-text text-center">
-            <a href="mailto:jerry@example.com">Jerry will answer your mail within minutes!</a></p>
-        </div>
-    </div>
-    <div class="text-center" style="background-color:darkturquoise;text-color:black;">
-        <a href="#top">Back to top!</a>
-    </div>
+  </div>
+</div>
 </body>
 </html>
