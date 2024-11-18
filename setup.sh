@@ -2,7 +2,7 @@
 
 set -euox pipefail
 
-cd xrwvm-fullstack_developer_capstone/server/
+cd server/
 pip install virtualenv
 virtualenv djangoenv
 source djangoenv/bin/activate
