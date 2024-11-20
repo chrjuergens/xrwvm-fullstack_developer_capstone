@@ -16,15 +16,8 @@ cd $ROOT_DIR/server/frontend
 npm install
 npm run build
 
-echo "Starting django server ..."
+echo "Start django server ..."
 cd $ROOT_DIR/server
 python3 manage.py makemigrations
 python3 manage.py migrate
-python3 manage.py runserver &
-
-echo "Preparing express server docker image ..."
-cd $ROOT_DIR/server/database
-docker build . -t nodeapp
-
-echo "Starting express server docker container ..."
-docker-compose up -d
+python3 manage.py runserver
