@@ -3,17 +3,17 @@ table {
     padding:10px;
     border: grey solid 1px;
     width:100%
-  }
-  
-  td {
+}
+
+td {
     padding:10px;
     align-self: center;
     border:solid grey .5px;
     text-align: center;
     font-size: large;
-  }
+}
   
-  .review_panel {
+.review_panel {
     display: flex;
     flex-direction: column;
     border: solid purple;
@@ -27,15 +27,15 @@ table {
     box-shadow: 0px 1px 12px rgba(0, 0, 0, 0.5);
     margin-bottom: .5cm;
     justify-content: space-between;
-  }
+}
 
-  .postreview{
+.postreview {
     margin:20px;
     padding:10px;
     font-size: larger;
-  }
+}
 
-  th{
+th {
     padding:5px;
     align-self: center;
     text-align: center;
@@ -43,9 +43,9 @@ table {
     margin-bottom: 1cm;
     vertical-align: middle;
     color: black;
-  }
+}
 
-  .reviews_panel {
+.reviews_panel {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -53,22 +53,23 @@ table {
     overflow-wrap: normal;
     margin-top: 1cm;
     align-items: flex-start;
-  }
+}
 
-  .reviewer {
+.reviewer {
     margin: 10px; /* Optional margin for spacing */
     font-style: italic;
     color: gray;
-    font-size: small;
+    font-size: 18px;
+    text-align: center;
 }
 
 .review {
-  margin-top: 1.5cm;
+    margin-top: 1.5cm;
 }
 
 .emotion_icon {
-  align-self: center;
-  position:fixed;
+    align-self: center;
+    position:fixed;
     width:40px;
     height:40px;
     background-color:#0C9;
@@ -79,10 +80,10 @@ table {
 }
 
 .review_icon {
-  width:40px;
+    width:40px;
 }
 
 .review_icon:hover {
-  transform: scale(1.1);
-   border: 2px solid #080808;
+    transform: scale(1.1);
+    border: 2px solid #080808;
 }
