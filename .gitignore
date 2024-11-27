@@ -3,6 +3,7 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+server/carsInventory/node_modules
 # C extensions
 *.so
 
