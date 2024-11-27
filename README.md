@@ -20,3 +20,12 @@ The url of the sentiment analyzer is shown when starting the service via Code En
 4. Setup dealership app
     a. Deploy the app via kubernetes: 'setup_dealership_app.sh'
     b. Start server for testing/debugging: 'setup_django_for_testing.sh'
+
+## Adding superuser
+
+The superuser details are stored in a sqlite3 db file.
+Hence, the superuser credentials will be transferred into the container in kubernetes via this sqlite3 db file.
+If you want to use superuser credentials, you need to create the superuser **before** deploying the container into kubernetes.
+
+1. Source the 'activate' file in the 'djangoenv' virtual environment.
+2. Execute 'python3 \<path_to_djangoapp\>/manage.py createsuperuser'.
