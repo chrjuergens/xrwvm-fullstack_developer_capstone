@@ -29,3 +29,9 @@ If you want to use superuser credentials, you need to create the superuser **bef
 
 1. Source the 'activate' file in the 'djangoenv' virtual environment.
 2. Execute 'python3 \<path_to_djangoapp\>/manage.py createsuperuser'.
+
+## Ports
+
+1. Express service: 3030
+2. Frontend: 8000
+3. Mongodb: 27017
