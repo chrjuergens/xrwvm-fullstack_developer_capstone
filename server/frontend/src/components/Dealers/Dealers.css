@@ -1,11 +1,11 @@
-table{
+table {
     margin:5px;
     padding:10px;
     border: grey solid 1px;
     width:100%
   }
   
-  td{
+  td {
     padding:10px;
     align-self: center;
     border:solid grey .5px;
@@ -13,10 +13,10 @@ table{
     font-size: large;
   }
   
-  .review_panel{
+  .review_panel {
     display: flex;
     flex-direction: column;
-    border: solid grey;
+    border: solid purple;
     position: relative;
     height:7cm;
     width:6cm;
@@ -84,5 +84,5 @@ table{
 
 .review_icon:hover {
   transform: scale(1.1);
-  border: solid lightgray;
+   border: 2px solid #080808;
 }
