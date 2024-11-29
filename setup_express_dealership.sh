@@ -8,5 +8,5 @@ echo "Preparing express server docker image ..."
 cd $ROOT_DIR/server/database
 docker build . -t nodeapp
 
-echo "Start express docker container ..."
+echo "Start express dealership docker compose ..."
 docker compose up
